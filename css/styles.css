@@ -32,6 +32,13 @@ body {
     background-color: #ff4c68;
     color: #fff;
   }
+.title {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;                                                                              
+  line-height: 1.5;
+}
 
 
 
@@ -182,7 +189,6 @@ footer .bot {
   .title {
     font-family: "Montserrat";
     font-size: 3rem;
-    color: green;
     font-weight: bold;
     line-height: 1.5;
   }
@@ -262,7 +268,6 @@ footer .bot {
   .title {
     font-family: "Montserrat";
     font-size: 3rem;
-    color: blue;
     font-weight: bold;
     line-height: 1.5;
   }
@@ -310,7 +315,7 @@ footer .bot {
 
 
 /* TABLET VIEW */
-@media (min-width: 601px) and (max-width: 991px){
+@media (min-width: 630px) and (max-width: 991px){
 
 body {
   font-family: "Montserrat";
@@ -344,7 +349,9 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
-}
+  }
+  /* .title-case{
+  } */
 .title {
   font-family: "Montserrat";
   font-size: 3rem;
@@ -492,8 +499,11 @@ footer .bot {
 }
 }
 
-
-
+@media (min-width: 601px) and (max-width: 629px){
+  .title-case{
+    padding-right: 2rem;
+  }
+}
 
 /* PHONE VIEW */
 
@@ -534,13 +544,11 @@ body {
   color: #fff;
 }
 .title-case{
-  width: 98%;
-  margin: 0 10rem 0 0;
-}
+  padding-right: 3rem;
+  }
 .title {
   font-family: "Montserrat";
   font-size: 2rem;
-  color: yellow;
   font-weight: bold;                                                                              
   line-height: 1.5;
 }
@@ -687,7 +695,6 @@ body {
 .title {
   font-family: "Montserrat";
   font-size: 3rem;
-  color: red;
   font-weight: bold;                                                                              
   line-height: 1.5;
 }
@@ -866,12 +873,11 @@ footer .bot {
     color: #fff;
   }
   .title-case{
-    width: 500px;
+    padding-right: 7rem;
   }
   .title {
     font-family: "Montserrat";
-    font-size: 2.5rem;
-    color: black;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.5;
 
@@ -950,7 +956,6 @@ footer .bot {
   .title {
     font-family: "Montserrat";
     font-size: 2.5rem;
-    color: brown;
     font-weight: bold;
     line-height: 1.5;
 
